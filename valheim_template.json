@@ -14,7 +14,7 @@
                 "description": "azure region to host the server and storage"
             }
         },
-        "password": {
+        "serverPassword": {
             "type": "securestring",
             "metadata": {
                 "description": "Password to enter the world"
@@ -147,7 +147,7 @@
                                 },
                                 {
                                     "name": "PASSWORD",
-                                    "value": "[parameters('password')]"
+                                    "value": "[parameters('serverPassword')]"
                                 },
                                 {
                                     "name": "TZ",
