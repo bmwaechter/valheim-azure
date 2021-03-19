@@ -48,7 +48,7 @@
             }
         },
         "serverDnsLabel": {
-            "type": "securestring",
+            "type": "string",
             "defaultValue": "[parameters('serverName')]",
             "metadata": {
                 "description": "dns lablel for the server"
