@@ -4,7 +4,7 @@
 
 Light weight, docker-based Valhiem server running on auzre.  Based on [mbround18's valheim-docker image](https://github.com/mbround18/valheim-docker).  This deployment automatically configures the server, saves, and backups to be stored on volumes mounted to an azure file share.
 
-To deploy using the az CLI:
+To deploy using the az cli:
 
 ```
     az deployment group create -g group_name -f .\valheim_template.json -p "@parameters.json"
